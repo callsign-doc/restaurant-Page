@@ -2,6 +2,7 @@ import { loadHomePage } from "./home";
 import { loadMenu } from "./loadMenu";
 import { loadAbout } from "./loadAbout";
 
+
 const homeBtn = document.getElementById('home-tab')
 const menuBtn = document.getElementById('menu-tab');
 const aboutBtn = document.getElementById('about-tab');

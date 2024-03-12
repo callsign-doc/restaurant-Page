@@ -1,4 +1,5 @@
 export { loadHomePage };
+import krustyKrabImg from "./assets/krustyKrab.jpeg"
 
 function loadHomePage() {
 
@@ -14,7 +15,7 @@ function loadHomePage() {
     
     // Create and append the image
     const image = document.createElement('img');
-    image.src = 'krusty-krab.jpg';
+    image.src = krustyKrabImg;
     image.alt = 'The Krusty Krab';
     image.style.width = '100%';
     image.style.maxWidth = '600px';
